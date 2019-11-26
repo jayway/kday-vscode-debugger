@@ -1,0 +1,33 @@
+{
+  "name": "kday-vscode-debugger",
+  "version": "1.0.0",
+  "description": "vscode debugger presentation/lab for Jayway Competence Development",
+  "main": "src/index.js",
+  "scripts": {
+    "webpack-dev-server": "webpack-dev-server --inline --hot",
+    "test": "mocha --colors test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayway/kday-vscode-debugger.git"
+  },
+  "author": "Hans Löfgren",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jayway/kday-vscode-debugger/issues"
+  },
+  "homepage": "https://github.com/jayway/kday-vscode-debugger#readme",
+  "dependencies": {
+    "forever": "^1.0.0",
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "mocha": "^6.2.2",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
