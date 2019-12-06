@@ -1,2 +1,2 @@
 const list = ['a', 'b', 'c'];
-console.log(list.toString());
+document.getElementById("demo").innerText = list.toString();

@@ -8,6 +8,11 @@
 - Hackalong demo (20 min)
 - Questions / Discussion (10 min)
 
+note:
+
+why this session?
+right tools for the job
+
 ---
 
 ## Walkthrough
@@ -45,6 +50,7 @@
 - Hot-reload might lose track of breakpoints
 - "Reapply all breakpoints"
 - Can't save Logpoints
+- ... and more 😇
 
 ---
 

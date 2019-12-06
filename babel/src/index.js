@@ -1,2 +1,2 @@
 const fn = require("./fn");
-console.log(fn(1337));
+document.getElementById("demo").innerText = fn(42);

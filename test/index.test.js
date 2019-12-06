@@ -9,14 +9,14 @@ describe("baz.js", () => {
   beforeEach(() => {
     list = [1, 2, 3, 4, 5];
     reveresedList = baz(list);
-  })
+  });
 
   it("Reverses a list", () => {
     list.forEach((v, i) => assert.equal(v, reveresedList[i]));
     assert.equal(list, reveresedList);
   });
 
-  it("Reverses aa list and returns its reference", () => {
+  it("Reverses a list and returns its reference", () => {
     list[0] = NaN;
     list.forEach((v, i) => assert.equal(v, reveresedList[i]));
   });
